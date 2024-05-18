@@ -3,7 +3,7 @@ package homework1;
 public class SingleThreadSolution {
     public static void main(String[] args) {
         long count = countNumbersSingleThread();
-        System.out.println("Rezultat v odnom potoke: " + count);
+        System.out.println("Rezultat v odnom potoke : " + count);
     }
 
     public static long countNumbersSingleThread() {

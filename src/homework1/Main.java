@@ -5,7 +5,7 @@ public class Main {
         long singleThreadResult = SingleThreadSolution.countNumbersSingleThread();
         long multiThreadResult = MultiThreadSolution.countNumbersTwoThreads();
 
-        System.out.println("Rezultat v odnom potoke: " + singleThreadResult);
+        System.out.println("Rezultat v odnom potoke : " + singleThreadResult);
         System.out.println("Rezultat v dvuh potokah: " + multiThreadResult);
 
         if (singleThreadResult == multiThreadResult) {
