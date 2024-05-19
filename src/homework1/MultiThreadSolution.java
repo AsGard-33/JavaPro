@@ -8,7 +8,7 @@ public class MultiThreadSolution {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-        System.out.println("Rezultat v dvuh potokah: " + count);
+        System.out.println("Rezultat v dvuh potokah : " + count);
     }
 
     public static long countNumbersTwoThreads() throws InterruptedException {
